@@ -440,47 +440,21 @@ img {
   margin-bottom: 2.5rem;
 }
 
-.rsvp-placeholder {
+.rsvp-info {
   font-family: var(--font-body);
-  font-style: italic;
-  font-size: 0.95rem;
-  color: var(--accent-gold);
-  margin-bottom: 0.3rem;
-}
-
-/* QR Code Placeholder */
-.qr-placeholder {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 170px;
-  border: 2px dashed var(--border);
-  background: var(--bg-cream);
-  padding: 1rem;
-}
-
-.qr-cross {
-  width: 28px;
-  height: 28px;
-  color: var(--border);
+  font-size: 1rem;
+  color: var(--text-dark);
   margin-bottom: 0.5rem;
+  line-height: 1.6;
 }
 
-.qr-label {
-  font-family: var(--font-label);
-  font-size: 0.8rem;
-  letter-spacing: 0.15em;
-  color: var(--text-muted);
-  text-transform: uppercase;
+/* QR Code */
+.qr-code {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
-.qr-sublabel {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  font-style: italic;
-}
 
 
 /* =============================================================
