@@ -432,33 +432,14 @@ img {
 
 .baptism-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
-.baptism-frame {
-  border: 3px solid var(--border);
-  padding: 5px;
-  background: var(--bg-cream-light);
-  overflow: hidden;
-}
-
-.baptism-frame img {
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  filter: sepia(0.15) brightness(0.95) saturate(0.85);
-}
-
-.baptism-frame--large {
-  grid-column: 1 / -1;
-}
-
-.baptism-frame--large img {
-  height: 420px;
+.baptism-grid .gallery-frame img {
+  height: 260px;
 }
 
 
@@ -766,15 +747,11 @@ img {
   /* Baptism */
   .baptism-grid {
     grid-template-columns: 1fr;
+    max-width: 400px;
   }
 
-  .baptism-frame--large {
-    grid-column: 1;
-  }
-
-  .baptism-frame img,
-  .baptism-frame--large img {
-    height: 320px;
+  .baptism-grid .gallery-frame img {
+    height: 300px;
   }
 
   /* RSVP */
