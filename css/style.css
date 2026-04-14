@@ -446,6 +446,53 @@ img {
 
 
 /* =============================================================
+   SECTION 7C: BIBLE GUEST BOOK
+   ============================================================= */
+.bible-book {
+  background: var(--bg-cream-light);
+  padding: 4rem 2rem 2rem;
+  text-align: center;
+}
+
+.bible-book-cross {
+  display: block;
+  width: 18px;
+  height: 30px;
+  color: var(--accent-gold);
+  margin: 0 auto 1.4rem;
+}
+
+.bible-book-label {
+  font-family: var(--font-label);
+  font-size: 0.9rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.bible-book-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 4.5rem;
+  color: var(--text-dark);
+  line-height: 1.1;
+  margin-bottom: 1.6rem;
+}
+
+.bible-book-instruction {
+  font-family: var(--font-label);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  line-height: 2;
+  max-width: 420px;
+  margin: 0 auto 3rem;
+}
+
+
+/* =============================================================
    SECTION 8: RSVP
    ============================================================= */
 .rsvp {
