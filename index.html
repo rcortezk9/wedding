@@ -35,6 +35,13 @@
       <rect x="7" y="1" width="2" height="14" rx="0.5" fill="currentColor"/>
       <rect x="2" y="5.5" width="12" height="2" rx="0.5" fill="currentColor"/>
     </symbol>
+
+    <!-- Open book accent -->
+    <symbol id="book-open" viewBox="0 0 40 26">
+      <path d="M20 23 L20 3 L2 5 L2 21 Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M20 23 L20 3 L38 5 L38 21 Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <line x1="20" y1="3" x2="20" y2="23" stroke="currentColor" stroke-width="1"/>
+    </symbol>
   </svg>
 
 
@@ -233,10 +240,12 @@
        SECTION 7C: BIBLE GUEST BOOK
        ============================================================ -->
   <section class="bible-book" id="bible-book">
-    <svg class="bible-book-cross" aria-hidden="true"><use href="#cross"/></svg>
-    <p class="bible-book-label">Please Sign Our</p>
-    <h2 class="bible-book-title">Bible Guest Book</h2>
-    <p class="bible-book-instruction">Find a verse that speaks to your heart,<br>highlight it, and sign your name in the margin<br>&mdash; a living gift of scripture for the journey ahead.</p>
+    <div class="bible-book-inner">
+      <svg class="bible-book-icon" aria-hidden="true"><use href="#book-open"/></svg>
+      <p class="bible-book-label">Please Sign Our</p>
+      <h2 class="bible-book-title">Bible Guest Book</h2>
+      <p class="bible-book-instruction">Find a verse that speaks to your heart,<br>highlight it, and sign your name in the margin<br>&mdash; a living gift of scripture for the journey ahead.</p>
+    </div>
 
     <div class="section-divider">
       <svg class="divider-icon" aria-hidden="true"><use href="#cross-divider"/></svg>
