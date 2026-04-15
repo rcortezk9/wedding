@@ -485,6 +485,15 @@ img {
   margin-bottom: 1.6rem;
 }
 
+.bible-book-prompt {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 1.4rem;
+}
+
 .bible-book-instruction {
   font-family: var(--font-label);
   font-size: 0.85rem;
