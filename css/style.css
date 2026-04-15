@@ -385,6 +385,18 @@ img {
   margin-bottom: 1rem;
 }
 
+.gift-link {
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-gold);
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.gift-link:hover {
+  color: var(--accent-gold);
+}
+
 .gift-text p {
   font-size: 1.05rem;
   color: var(--text-muted);
